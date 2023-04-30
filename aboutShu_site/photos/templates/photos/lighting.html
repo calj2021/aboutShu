@@ -1,0 +1,43 @@
+{% extends 'photos/base.html' %}
+
+{% block content %}
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="{% static "photos/images/sxy_pix/lighting/IMG_5637.JPG" %}" alt="Bootstrap" style = "object-fit: contain; width:100%; height:auto; border: solid 2px black"/>
+    </div>
+    <div class="col">
+      <img src="{% static "photos/images/sxy_pix/lighting/IMG_5639.JPG" %}" alt="Bootstrap" style = "object-fit: contain; width:100%; height:auto; border: solid 2px black"/>
+    </div>
+
+  </div>
+</div>
+<br>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="{% static "photos/images/sxy_pix/lighting/IMG_5640.JPG" %}" alt="Bootstrap" style = "object-fit: contain; width:100%; height:auto; border: solid 2px black"/>
+    </div>
+    <div class="col">
+      <img src="{% static "photos/images/sxy_pix/lighting/IMG_5642.JPG" %}" alt="Bootstrap" style = "object-fit: contain; width:100%; height:auto; border: solid 2px black"/>
+    </div>
+
+  </div>
+</div>
+<br>
+
+<br>
+</body>
+</html>
+
+{% endblock %}
